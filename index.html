@@ -1,0 +1,153 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <input type="text" placeholder="Name" id="name">
+        <br>
+        <br>
+        <input type="number" placeholder="Age" id="age">
+        <br>
+        <br>
+        <button value="Submit" id="btn">Submit</button>
+    </form>
+
+    <script src="source.js">
+        // console.log("hello world!");
+
+    </script>
+</body>
+
+</html> -->
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="loginform">
+        <input type="text" placeholder="username" id="user">
+        <br><br>
+        <input type="text" placeholder="password" id="password">
+        <br><br>
+        <button type="submit">submit</button>
+        <br>
+        <p id="result"></p>
+
+    </form>
+
+
+    <script>
+        let user = "farjad";
+        let password = "farjadkhafan";
+        let form = document.getElementById("loginform");
+        
+        form.addEventListener("submit" , function(){
+            let username = document.getElementById("user").value;
+            let passworduser = document.getElementById("password").value;
+            if (username == user && passworduser == password){
+                document.getElementById("result").innerHTML = "welcome";
+            }else{
+                document.getElementById("result").innerHTML = "error";
+            }
+        })
+
+
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <form id="loginform">
+        <input type="text" placeholder="username" id="user">
+        <br><br>
+        <input type="password" placeholder="password" id="password">
+        <br><br>
+        <button type="submit">submit</button>
+        <br>
+        <p id="result"></p>
+    </form>
+
+    <script>
+        let user = "farjad";
+        let password = "farjadkhafan";
+        let form = document.getElementById("loginform");
+
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); 
+            let username = document.getElementById("user").value;
+            let passworduser = document.getElementById("password").value;
+
+            if (username === user && passworduser === password) {
+                document.getElementById("result").innerHTML = "Welcome!";
+            } else {
+                document.getElementById("result").innerHTML = "Error: Invalid username or password!";
+            }
+        });
+    </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="loginform">
+        <input type="text" placeholder="region" id="region">
+        <br>
+        <br>
+        <button type="submit">submit</button>
+    </form>
+
+    <script src="source.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
